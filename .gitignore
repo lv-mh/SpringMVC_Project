@@ -1,2 +1,7 @@
 /target/
 /SpringMVC_demo.iml
+/bin/
+/.project
+/.gitignore
+/.classpath
+/out/
