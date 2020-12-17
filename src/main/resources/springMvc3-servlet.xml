@@ -13,7 +13,8 @@
     
     <!-- 启动扫描所有的controller -->
     <context:component-scan base-package="org.core.action"/>
-    
+
+
    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>          
    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/> 
     
@@ -71,10 +72,10 @@
     </bean>  
     <bean id="person" class="com.spc.model.Person"></bean>
 	<bean name="personAction" class="com.spc.action.PersonAction">  
-        <!--(1)依赖注入,配置当前类中相应的属性-->  
+        <!--(1)依赖注入,配置当前类中相应的属性-->
         <property name="personDao" ref="personDao"></property>  
         <property name="person"  ref="person"></property>   
-    </bean>  
+    </bean>
     
 
     

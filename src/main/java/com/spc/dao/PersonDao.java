@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
 import com.spc.model.Person;
-import com.sun.istack.internal.FinalArrayList;
+
 
 public class PersonDao extends JdbcDaoSupport{
        public String selectAll(){
